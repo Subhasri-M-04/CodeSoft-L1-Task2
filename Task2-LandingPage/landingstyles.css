@@ -1,0 +1,110 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    background-color: #f0f8ff; /* Light background color for contrast */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #8A2BE2; /* Violet background */
+    color: #fff;
+    padding: 80px 20px;
+    text-align: center;
+    border-bottom: 5px solid #6A0D91; /* Slightly darker violet border for a modern look */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em; /* Larger font size for emphasis */
+}
+
+header p {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #8A2BE2; /* Match button color with header background */
+    padding: 15px 30px;
+    border-radius: 50px; /* Rounded button for a modern look */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #6A0D91; /* Hover effect with a darker violet */
+    color: #fff;
+}
+
+main {
+    padding: 60px 20px;
+}
+
+.features {
+    background-color: #ffffff; /* White background for feature section */
+    padding: 60px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature {
+    text-align: center;
+    padding: 40px 20px; /* Adjust padding as needed */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9; /* Slightly off-white background for features */
+    width: 800px; /* Fixed width for feature boxes */
+    min-height: 150px; /* Minimum height for content */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature:hover {
+    transform: translateY(-10px); /* Lift effect on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.feature h2 {
+    margin: 0 0 15px;
+    color: #8A2BE2; /* Feature headings in Violet */
+}
+
+.cta {
+    background-color: #8A2BE2; /* Violet background for CTA section */
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+    border-top: 5px solid #6A0D91; /* Slightly darker violet border */
+}
+
+.cta h2 {
+    margin: 0 0 15px;
+    font-size: 2em; /* Larger font size for emphasis */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    border-top: 5px solid #6A0D91; /* Match border color with other sections */
+}
+
+footer p {
+    margin: 0;
+}
+
